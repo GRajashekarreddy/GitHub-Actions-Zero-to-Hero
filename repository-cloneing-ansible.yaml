@@ -1,6 +1,6 @@
 ---
 - name: Clone GitHub repository
-  hosts: your_target_host
+  hosts: all
   gather_facts: no
   tasks:
     - name: Install git
