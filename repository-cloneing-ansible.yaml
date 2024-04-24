@@ -12,5 +12,5 @@
     - name: Clone repository
       git:
         repo: https://github.com/GRajashekarreddy/GitHub-Actions-Zero-to-Hero.git
-        dest: /path/to/clone/the/repository
+        dest: /home/devuser/ansible/git_clone_repo
         update: yes # Optional, updates the repository if it already exists
